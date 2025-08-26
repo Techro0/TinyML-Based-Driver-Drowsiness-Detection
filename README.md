@@ -4,7 +4,11 @@ A TinyML‑ready driver drowsiness detector trained on the **OACE (Open and Clos
 It classifies eye state (open vs. closed) from webcam frames and raises an alarm when both eyes
 are closed for a configurable number of consecutive frames. The model is exported to **TensorFlow Lite (INT8)** for later deployment on microcontrollers with **TFLite Micro**.
 
-![Diver Drowsiness Detection](Driver Drowsiness Detection.png)
+<p align="center">
+  <img src="Driver Drowsiness Detection.png" width="75%"><br/>
+  <em>Diver Drowsiness Detection</em>
+</p>
+
 ## Features
 - Tiny depthwise‑separable CNN (64×64 grayscale) — quantization‑friendly
 - Real‑time webcam inference with Haar face/eye detection (OpenCV)
