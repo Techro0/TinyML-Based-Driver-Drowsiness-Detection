@@ -122,7 +122,6 @@ When drowsiness is detected, a message is published to `tinyml/drowsy/alert` via
 ## Notes
 - Lighting & cropping matter: if Haar misses eyes, try `haarcascade_eye_tree_eyeglasses.xml` or integrate landmarks (e.g., MediaPipe) to crop eyes.
 - If classes are imbalanced, consider `class_weight` in training.
-- This repo ignores large data and model files by default; commit them only if needed.
 
 ---
 
