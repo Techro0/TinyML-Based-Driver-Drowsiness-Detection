@@ -1,0 +1,25 @@
+# Virtual envs
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Data and models (keep lightweight repo)
+data/*
+!data/.gitkeep
+models/*
+!models/label_map.txt
+
+# Outputs
+*.log
+*.tmp
